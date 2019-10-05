@@ -25,8 +25,8 @@ class Color extends Component {
   render() {
     return (
       <div className='change-color'>
-        <button className='red' onClick={this.changeRed.bind(this)} />
         <button className='yellow' onClick={this.changeYellow.bind(this)} />
+        <button className='red' onClick={this.changeRed.bind(this)} />
         <button className='blue' onClick={this.changeBlue.bind(this)} />
         <button className='pink' onClick={this.changePink.bind(this)} />
         <button className='orange' onClick={this.changeOrange.bind(this)} />
@@ -193,5 +193,6 @@ class NotesApp extends Component {
     localStorage.setItem('notes', notes);
   }
 }
+
 
 export default NotesApp;
