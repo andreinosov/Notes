@@ -8,6 +8,11 @@ body {
     background-color: #eaeaea;
 }
 
+body .note {
+    background-color: #eaeaea;
+    padding: 8px;
+}
+
 #mount-point {
     display: -webkit-box;
     display: -webkit-flex;
